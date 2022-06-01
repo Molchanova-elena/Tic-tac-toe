@@ -18,6 +18,7 @@ const gameStatus = document.querySelector('.game--status');
 const cellList = document.querySelectorAll('.cell');
 const button = document.querySelector('.game--restart');
 
+// сообщения для вывода на экран
 const drawMessage = 'Game ended in a draw!';
 const winningMessage = () => `Player ${currentUser} has won!`;
 const currentPlayerTurn = () => `It's ${currentUser}'s turn`;
